@@ -18,6 +18,6 @@ public class MainMenuManager : MonoBehaviour
     public void OnPlayButtonPressed()
     {
         Debug.Log("Play Button Pressed");
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Shooting1");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("GameScene");
     }
 }
